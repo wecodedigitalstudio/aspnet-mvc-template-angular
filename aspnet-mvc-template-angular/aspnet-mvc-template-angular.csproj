@@ -229,7 +229,6 @@
     <Content Include="package.json" />
     <Content Include="package-lock.json" />
     <Content Include="angular.json" />
-    <Content Include=".gitignore" />
     <Content Include="README.md" />
     <Content Include=".editorconfig" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
