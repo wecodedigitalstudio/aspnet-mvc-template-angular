@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace aspnet_mvc_template_angular.Controllers
 {
-    public class HomeController : Controller
+    public class DevsController : Controller
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home";
+            ViewBag.Title = "Devs";
 
             return View();
         }

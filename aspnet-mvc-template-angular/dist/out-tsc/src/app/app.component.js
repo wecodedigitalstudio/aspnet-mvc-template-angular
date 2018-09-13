@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { Component } from '@angular/core';
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'aspnet-mvc-template-angular';
+        this.title = 'ASP.NET MVC + Angular';
     }
     AppComponent = __decorate([
         Component({
