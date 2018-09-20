@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="/">
+    <img class="logo" src="~/Content/img/logo-navbar.svg" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  @{
+    string homeActive = ViewContext.RouteData.Values["controller"].ToString() == "Home" ? "active" : "";
+    string devsActive = ViewContext.RouteData.Values["controller"].ToString() == "Devs" ? "active" : "";
+    string componentActive = ViewContext.RouteData.Values["controller"].ToString() == "Components" ? "active" : "";
+  }
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item @homeActive">
+        @Html.ActionLink("Home", "Index", "Home", null, new { @class = "nav-link" })
+      </li>
+      <li class="nav-item @devsActive">
+        @Html.ActionLink("Developers", "Index", "Devs", null, new { @class = "nav-link" })
+      </li>
+    </ul>
+  </div>
+</nav>

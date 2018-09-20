@@ -17,7 +17,6 @@ namespace aspnet_mvc_template_angular
       GlobalConfiguration.Configure(WebApiConfig.Register);
       FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
       RouteConfig.RegisterRoutes(RouteTable.Routes);
-      BundleConfig.RegisterBundles(BundleTable.Bundles);
     }
 
     protected void Application_PostAuthorizeRequest()
