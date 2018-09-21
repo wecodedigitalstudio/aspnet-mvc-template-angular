@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="@Url.Content("~/Content/css/custom.min.css")" />
+  <link rel="stylesheet" href="~/Content/plugins/datatables/css/dataTable.b4.css" />
 
   <script src="@Url.Content("~/Content/plugins/jquery/jquery.min.js")"></script>
   <script src="@Url.Content("~/Content/plugins/bootstrap/bootstrap.min.js")"></script>
@@ -22,6 +23,12 @@
 
   <!-- Body -->
   @RenderBody()
+
+  <script type="text/javascript" src="~/build/libs/runtime.js"></script>
+  <script type="text/javascript" src="~/build/libs/polyfills.js"></script>
+  <script type="text/javascript" src="~/build/libs/styles.js"></script>
+  <script type="text/javascript" src="~/build/libs/vendor.js"></script>
+  <script type="text/javascript" src="~/build/libs/main.js"></script>
 
 </body>
 </html>

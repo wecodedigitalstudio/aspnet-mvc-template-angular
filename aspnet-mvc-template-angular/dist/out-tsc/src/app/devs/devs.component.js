@@ -7,11 +7,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import * as $ from 'jquery';
+import 'datatables.net';
 var DevsComponent = /** @class */ (function () {
-    function DevsComponent() {
+    function DevsComponent(http, chRef) {
+        this.http = http;
+        this.chRef = chRef;
     }
     DevsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.http.get('https://5a5a9e00bc6e340012a03796.mockapi.io/clients')
+            .subscribe(function (data) {
+            _this.clients = data;
+            // You'll have to wait that changeDetection occurs and projects data into 
+            // the HTML template, you can ask Angular to that for you ;-)
+            _this.chRef.detectChanges();
+            // Now you can use jQuery DataTables :
+            var table = $('table');
+            _this.dataTable = table.DataTable();
+        });
     };
     DevsComponent = __decorate([
         Component({
@@ -19,7 +35,7 @@ var DevsComponent = /** @class */ (function () {
             templateUrl: './devs.component.html',
             styleUrls: ['./devs.component.css']
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [HttpClient, ChangeDetectorRef])
     ], DevsComponent);
     return DevsComponent;
 }());

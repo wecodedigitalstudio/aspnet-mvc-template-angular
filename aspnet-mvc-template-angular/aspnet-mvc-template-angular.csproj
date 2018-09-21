@@ -184,6 +184,14 @@
     <Content Include="Content\img\we-code-logo.svg" />
     <Content Include="Content\plugins\bootstrap\bootstrap.min.css" />
     <Content Include="Content\plugins\bootstrap\bootstrap.min.js" />
+    <Content Include="Content\plugins\datatables\css\dataTable.b4.css" />
+    <Content Include="Content\plugins\datatables\dataTable.b4.js" />
+    <Content Include="Content\plugins\datatables\images\sort_asc.png" />
+    <Content Include="Content\plugins\datatables\images\sort_asc_disabled.png" />
+    <Content Include="Content\plugins\datatables\images\sort_both.png" />
+    <Content Include="Content\plugins\datatables\images\sort_desc.png" />
+    <Content Include="Content\plugins\datatables\images\sort_desc_disabled.png" />
+    <Content Include="Content\plugins\datatables\jquery.dataTables.js" />
     <Content Include="Content\plugins\jquery\jquery.min.js" />
     <Content Include="e2e\protractor.conf.js" />
     <Content Include="favicon.ico" />
