@@ -5,6 +5,27 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-mvc-template-angular", "aspnet-mvc-template-angular\aspnet-mvc-template-angular.csproj", "{2D07D871-B54E-4C64-9F1E-98E21543B67D}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "angular-cli", "angular-cli\", "{BB1B380C-94CF-47C8-A780-FBDB3EE5A920}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57253"
+		Debug.AspNetCompiler.PhysicalPath = "angular-cli\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57253\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57253"
+		Release.AspNetCompiler.PhysicalPath = "angular-cli\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57253\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57253"
+		SlnRelativePath = "angular-cli\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{2D07D871-B54E-4C64-9F1E-98E21543B67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D07D871-B54E-4C64-9F1E-98E21543B67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D07D871-B54E-4C64-9F1E-98E21543B67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1B380C-94CF-47C8-A780-FBDB3EE5A920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1B380C-94CF-47C8-A780-FBDB3EE5A920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1B380C-94CF-47C8-A780-FBDB3EE5A920}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1B380C-94CF-47C8-A780-FBDB3EE5A920}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

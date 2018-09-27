@@ -193,26 +193,12 @@
     <Content Include="Content\plugins\datatables\images\sort_desc_disabled.png" />
     <Content Include="Content\plugins\datatables\jquery.dataTables.js" />
     <Content Include="Content\plugins\jquery\jquery.min.js" />
-    <Content Include="e2e\protractor.conf.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="e2e\tsconfig.e2e.json" />
-    <Content Include="package.json" />
-    <Content Include="package-lock.json" />
-    <Content Include="angular.json" />
-    <Content Include="README.md" />
     <Content Include=".editorconfig" />
-    <Content Include="src\app\app.component.css" />
-    <Content Include="src\app\app.component.html" />
-    <Content Include="src\app\devs\devs.component.css" />
-    <Content Include="src\app\devs\devs.component.html" />
-    <Content Include="src\favicon.ico" />
-    <Content Include="src\index.html" />
-    <Content Include="src\karma.conf.js" />
-    <Content Include="src\styles.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -225,36 +211,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="src\assets\.gitkeep" />
-    <Content Include="src\browserslist" />
-    <Content Include="src\tsconfig.app.json" />
-    <Content Include="src\tsconfig.spec.json" />
-    <Content Include="src\tslint.json" />
-    <Content Include="tslint.json" />
-    <Content Include="tsconfig.json" />
     <Content Include="Views\Devs\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="build\libs\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Content\css\custom.scss" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Menu.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="e2e\src\app.e2e-spec.ts" />
-    <TypeScriptCompile Include="e2e\src\app.po.ts" />
-    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\app.component.ts" />
-    <TypeScriptCompile Include="src\app\app.module.ts" />
-    <TypeScriptCompile Include="src\app\devs\devs.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\devs\devs.component.ts" />
-    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
-    <TypeScriptCompile Include="src\environments\environment.ts" />
-    <TypeScriptCompile Include="src\main.ts" />
-    <TypeScriptCompile Include="src\polyfills.ts" />
-    <TypeScriptCompile Include="src\test.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
