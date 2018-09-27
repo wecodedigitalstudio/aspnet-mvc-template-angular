@@ -9,6 +9,7 @@ import { Component2Component } from './component2/component2.component';
     CommonModule,
     Module2RoutingModule
   ],
-  declarations: [Component2Component]
+  declarations: [Component2Component],
+  entryComponents: [Component2Component]
 })
 export class Module2Module { }
