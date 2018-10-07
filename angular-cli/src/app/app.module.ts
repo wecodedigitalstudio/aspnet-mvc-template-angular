@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { DevsComponent } from './devs/devs.component';
 import { AppRoutingModule } from './app.routing';
 
-import {APP_BASE_HREF} from '@angular/common';
-
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
@@ -21,7 +19,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
