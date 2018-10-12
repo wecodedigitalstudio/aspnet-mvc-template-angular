@@ -13,8 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "../aspnet-mvc-template-angular/spa/libs",
-            "deployUrl": "/spa/libs/",
+            "outputPath": "../aspnet-mvc-template-angular/angular/libs",
+            "deployUrl": "/angular/libs/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
